@@ -1,0 +1,45 @@
+.home {
+    height: auto;
+    background: #222;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    place-items: center;
+    padding: 30px 10%;
+}
+
+.home__card {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.home__card h2 {
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #bbb;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .5s ease;
+}
+
+.home__card .card__img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card__img img {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.home__card:hover h2 {
+    color: #fff;
+}
+
+.home__card:hover .card__img img{
+    scale: 1.05;
+}

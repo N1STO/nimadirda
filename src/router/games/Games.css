@@ -1,0 +1,25 @@
+.game {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.games__sorter {
+    width: 100%;
+    background: #222;
+    padding: 20px 10%;
+}
+
+.games__sorter h2 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.games {
+    width: 100%;
+    min-height: auto;
+    display: grid;
+    padding: 25px 5%;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+}

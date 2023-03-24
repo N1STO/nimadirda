@@ -1,0 +1,12 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.services {
+    width: 100%;
+    height: auto;
+}
+
+.services img {
+    width: 100%;
+}
